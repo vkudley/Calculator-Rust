@@ -1,0 +1,19 @@
+[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2021"
+description = "A simple calculator application for CachyOS (KDE Plasma) built with Rust and iced"
+license = "MIT"
+
+[lib]
+name = "calculator"
+path = "src/main.rs"
+
+[dependencies]
+iced = { version = "0.14", features = ["debug"] }
+
+[dev-dependencies]
+
+[[test]]
+name = "calculator_engine"
+path = "tests/calculator_engine.rs"

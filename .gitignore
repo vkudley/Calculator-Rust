@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target/
+*.rlib
+*.d
+*.o
+
+# Clinerules
+.clinerules
+
+# Documentation
+/doc/
+
+# Temporary files
+*.tmp
+*.log
